@@ -4,7 +4,7 @@ function tablaDelSeis() {
   // Tu código:
 
   var tabla = [];
-  for (i = 0; i < 11; i++) {
+  for (i = 1; i < 11; i++) {
     tabla.push(6 * i);
   }
   return tabla;

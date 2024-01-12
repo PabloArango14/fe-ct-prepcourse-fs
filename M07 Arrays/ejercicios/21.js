@@ -12,11 +12,7 @@ function encontrarPrimerMultiploDeN(n, secuencia) {
     }
   }
 
-  if (primerMultiplo !== undefined) {
-    return primerMultiplo;
-  } else {
-    return undefined;
-  }
+  return primerMultiplo;
 }
 
 module.exports = encontrarPrimerMultiploDeN;
